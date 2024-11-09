@@ -3,7 +3,7 @@
   --color-cyan: hsl(180, 62%, 55%);
   --color-yellow: hsl(34, 97%, 64%);
   --color-blue: hsl(212, 86%, 64%);
-  --color-dark-gray: hsl(234, 12%, 34%);
+  --color-dark-gray: hsl(2342, 12%, 34%);
 
   --fs-section-heading: clamp(1.5rem, 1.2359rem + 1.1268vw, 2.25rem);
 }
@@ -14,6 +14,37 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: var(--fs-section-heading);
+  letter-spacing: 0.17px;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
 body {
   margin: 0;
+  padding-inline: 32px;
+  padding-block: 85px 78px;
+  font-family: "Poppins";
+  color: var(--color-dark-gray);
+}
+
+main {
+  margin: 0 auto;
+  max-width: 311px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+p {
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 1080px) {
+  main {
+    max-width: 540px;
+  }
 }

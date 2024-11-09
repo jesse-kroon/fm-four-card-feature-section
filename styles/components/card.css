@@ -1,0 +1,48 @@
+.cards {
+  display: grid;
+  row-gap: 25px;
+}
+
+.card {
+  border-radius: 8px;
+  padding-block: 27px 27px;
+  padding-inline: 29px 28px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-height: 222px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+}
+
+.card img {
+  align-self: flex-end;
+  height: 57px;
+  width: 57px;
+}
+
+.card-supervisor {
+  border-top: 3.55px solid var(--color-cyan);
+}
+
+.card-teambuilder {
+  border-top: 3.55px solid var(--color-red);
+}
+
+.card-karma {
+  border-top: 3.55px solid var(--color-yellow);
+}
+
+.card-calculator {
+  border-top: 3.55px solid var(--color-blue);
+}
