@@ -34,7 +34,7 @@ body {
 
 main {
   margin: 0 auto;
-  max-width: 311px;
+  max-width: 540px;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -45,6 +45,6 @@ p {
 
 @media only screen and (min-width: 1080px) {
   main {
-    max-width: 540px;
+    max-width: 1110px;
   }
 }
