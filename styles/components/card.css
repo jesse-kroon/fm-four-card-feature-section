@@ -25,6 +25,7 @@
   font-size: 13px;
   line-height: 23px;
   letter-spacing: 0.09px;
+  margin-bottom: 40px;
 }
 
 .card img {
@@ -50,6 +51,9 @@
 }
 
 @media only screen and (min-width: 1080px) {
+  .card {
+    min-height: 250px;
+  }
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -71,5 +75,10 @@
 
   .card-calculator {
     transform: translateY(-57.5%);
+  }
+
+  .card img {
+    height: 64px;
+    width: 64px;
   }
 }
