@@ -1,0 +1,9 @@
+:root {
+  --color-red: hsl(0, 78%, 62%);
+  --color-cyan: hsl(180, 62%, 55%);
+  --color-yellow: hsl(34, 97%, 64%);
+  --color-blue: hsl(212, 86%, 64%);
+  --color-dark-gray: hsl(234, 12%, 34%);
+
+  --fs-section-heading: clamp(1.5rem, 1.2359rem + 1.1268vw, 2.25rem);
+}
