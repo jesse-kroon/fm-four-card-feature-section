@@ -1,6 +1,7 @@
 .cards {
   display: grid;
   row-gap: 25px;
+  margin-inline: auto;
 }
 
 .card {
@@ -11,6 +12,7 @@
   min-height: 222px;
   display: flex;
   flex-direction: column;
+  max-width: 350px;
 }
 
 .card h2 {
@@ -45,4 +47,29 @@
 
 .card-calculator {
   border-top: 3.55px solid var(--color-blue);
+}
+
+@media only screen and (min-width: 1080px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;
+    gap: 30px;
+  }
+
+  .card-supervisor {
+    transform: translateY(57.5%);
+  }
+
+  .card-teambuilder {
+    grid-column-start: 2;
+  }
+
+  .card-karma {
+    grid-column-start: 2;
+  }
+
+  .card-calculator {
+    transform: translateY(-57.5%);
+  }
 }
