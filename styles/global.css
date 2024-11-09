@@ -7,3 +7,13 @@
 
   --fs-section-heading: clamp(1.5rem, 1.2359rem + 1.1268vw, 2.25rem);
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
